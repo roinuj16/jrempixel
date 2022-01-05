@@ -3,8 +3,8 @@ export const catalog = [
         id: 1,
         imageUrl:
             'https://images.squarespace-cdn.com/content/v1/59cfd8b051a584ee610be922/1603223437956-2802D1WXC7H4QCLE37QF/bangkok.png?format=1000w',
-        local: 'Brasília',
-        label: 'Arquitetura'
+        local: 'Algum lugar',
+        label: 'Por ai'
     },
     {
         id: 2,
