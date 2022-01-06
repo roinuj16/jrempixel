@@ -9,15 +9,18 @@
           <router-view/>
         </div>
       </main>
+
+      <my-footer />
   </div>
 </template>
 
 <script>
 import mobileMenu from "../components/horizontalLayout/horizontalMenu.vue";
+import myFooter from "../components/horizontalLayout/myFooter.vue";
 export default {
   name: 'horizontal-layout',
 
-  components: { mobileMenu }
+  components: { mobileMenu, myFooter }
 
 }
 </script>
