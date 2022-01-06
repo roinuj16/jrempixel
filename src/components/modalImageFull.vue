@@ -10,7 +10,7 @@
         <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
         <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" enter-to="opacity-100 translate-y-0 sm:scale-100" leave="ease-in duration-200" leave-from="opacity-100 translate-y-0 sm:scale-100" leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
 
-          <div class="inline-block align-bottom bg-gray-700 rounded-lg px-1 pt-1 pb-1 text-left overflow-hidden shadow-xl transform transition-all sm:align-middle sm:max-w-2/5 sm:w-2/5 mt-10" >
+          <div class="inline-block align-bottom bg-gray-700 rounded-lg px-1 pt-1 pb-1 text-left overflow-hidden shadow-xl transform transition-all sm:align-middle sm:max-w-2/5  mt-10" >
             <img class="object-cover shadow-lg" :src="image.imageUrl" :alt="image.label" />
           </div>
         </TransitionChild>
