@@ -1,16 +1,16 @@
 <template>
   <div class="min-h-full">
     <div class="mt-0 fixed w-full z-20 top-0">
-      <mobile-menu />
+      <mobile-menu/>
     </div>
 
-      <main>
-        <div class="w-full mt-10 pt-10 mb-5">
-          <router-view/>
-        </div>
-      </main>
+    <main>
+      <div class="w-full mt-10 pt-10 mb-5">
+        <router-view/>
+      </div>
+    </main>
 
-      <my-footer />
+    <my-footer/>
   </div>
 </template>
 

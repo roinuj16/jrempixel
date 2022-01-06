@@ -1,17 +1,14 @@
 <template>
-  <main-layout v-if="layout==='main'"/>
-  <horizontal-layout v-else/>
+  <horizontal-layout />
 </template>
 <script>
-import MainLayout from './layouts/MainLayout.vue'
 import HorizontalLayout from "./layouts/HorizontalLayout.vue";
 
 
 export default {
-  components: {HorizontalLayout, MainLayout },
+  components: {HorizontalLayout },
 
   data:() => ({
-    //layout: 'horizontal'
     layout: 'horizontal'
   })
 
