@@ -4,8 +4,10 @@
         <div class="flex  h-16 bg-blue-100 ">
           <div class="flex justify-between w-full  mr-36">
             <div class="flex-shrink-0 flex items-center pl-12">
-              <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
-              <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg" alt="Workflow" />
+              <router-link to="/">
+                <img class="block lg:hidden h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow" />
+                <img class="hidden lg:block h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg" alt="Workflow" />
+              </router-link>
             </div>
             <div class="hidden sm:-my-px sm:flex sm:space-x-8 ">
               <router-link v-for="item in navigation" :key="item.name" :to="item.path" :class="[item.current ? 'border-indigo-500 text-gray-900' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700', 'inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium']" :aria-current="item.current ? 'page' : undefined">
@@ -40,7 +42,7 @@
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 import { MenuIcon, XIcon } from '@heroicons/vue/outline'
 
-import { navigation } from "../../utils/navigations";
+import { navigation } from "../utils/navigations";
 
 export default {
   name: "mobile-menu",

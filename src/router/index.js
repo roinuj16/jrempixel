@@ -8,12 +8,12 @@ const history = createWebHistory()
 
 const routes = [
     {
-        path: '/',
-        name: 'catalog',
+        path: '/galeria',
+        name: 'galeria',
         component: Catalogo
     },
     {
-        path: '/bio',
+        path: '/',
         name: 'bio',
         component: Bio
     },

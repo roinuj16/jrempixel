@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import mobileMenu from "../components/horizontalLayout/horizontalMenu.vue";
-import myFooter from "../components/horizontalLayout/myFooter.vue";
+import mobileMenu from "../components/horizontalMenu.vue";
+import myFooter from "../components/myFooter.vue";
 export default {
   name: 'horizontal-layout',
 
